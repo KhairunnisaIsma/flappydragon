@@ -1,0 +1,83 @@
+#canvas {
+  overflow: hidden;
+  position: absolute;
+  z-index: 10;
+}
+#bird {
+  border-radius: 500px;
+  position: absolute;
+  user-select: none; /*Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+#btn {
+  color: white;
+  z-index: 9;
+  position: absolute;
+}
+#points {
+  color: white;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+#rules {
+  color: white;
+  margin-top: 5px;
+  margin-left: 2px;
+}
+#record {
+  color: white;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+.cardtop {
+  width: 17%;
+  display: flex;
+  flex-direction: column;
+  background: #ff7675;
+  border: 1px #ff7675 solid;
+  border-radius: 5px;
+  z-index: 9;
+  margin-left: 5px;
+  margin-top: 5px;
+  position: absolute;
+  user-select: none; /* Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+.pipe {
+  z-index: 8;
+  position: absolute;
+}
+.pipeTop {
+  z-index: 8;
+  position: absolute;
+}
+.canvas-back {
+  width: 1200px;
+  height: 605px;
+  position: absolute;
+  user-select: none; /* Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /*HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  z-index: -20;
+}
+.pipe-image {
+  width: 105px;
+  /* height: 1000px; */
+  margin-top: -5px;
+  margin-left: -8px;
+  position: absolute;
+}
+.pipeTop-image {
+  width: 105px;
+  /* height: 1000px; */
+  margin-left: -8px;
+  position: relative;
+}
